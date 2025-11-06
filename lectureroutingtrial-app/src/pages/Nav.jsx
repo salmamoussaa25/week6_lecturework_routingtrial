@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
-import Button from '../../components/Button'
+import Button from '../components/Button'
 
 const Nav = () => {
     return ( <>
