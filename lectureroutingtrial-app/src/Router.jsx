@@ -6,6 +6,8 @@ import Contact from './pages/Contact';
 import News from './pages/News';
 import SubNews from './pages/SubNews';
 import ErrorPage from './pages/ErrorPage';
+import TestState from './pages/TestState';
+
 
 
 const Router = () => {
@@ -17,6 +19,7 @@ const Router = () => {
             <Route path='/contact-us' element={<Contact />} />
             <Route path='/news' element={<News />} />
             <Route path='/news/:id' element={<SubNews />} />
+            <Route path='/test-state' element={<TestState />} />
             
             <Route path='*' element={<ErrorPage />} />
         </Routes>
